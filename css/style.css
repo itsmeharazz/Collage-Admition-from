@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Roboto', sans-serif;
+}
+.plax{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+
+body{
+     width: 100%;
+     min-height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-image: url(../image/dublin-trinity-college-ymgoje8yn2vxybka.jpg);
+     /* background-color: rgb(#c79c51, #85971e, #7c8698); */
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+
+.admitionfrom{
+     width: 40em;
+     height: 100%;
+     margin: 1.5em 0;
+     padding: 2em 2.9em;
+     backdrop-filter: blur(15px);
+     border: 1px solid #999;
+     border-radius: 1.1em;
+     color: #fff;
+}
+.admitionfrom h1{
+     text-align: center;
+    font-size: 36px;
+    margin-bottom: 1em;
+}
+
+.cf .input-box{
+     position: relative;
+     width: 100%;
+     margin: 30px 0;
+}
+.input-box input{
+     width: 100%;
+     height: 100%;
+     margin:0.5em 0.9em 0.9em 0;
+     padding: 0.8em 1.1em;
+     color: #fff;
+     background: transparent;
+     border: 1px solid #e4e4e4;
+     outline: none;
+     border-radius: 20px;
+     font-size: 16px;
+}
+
+.input-box input::placeholder{
+     color: #fff;
+}
+
+.input-box .selector{
+     width: 49%;
+}
+
+.selector select{
+     width: 100%;
+     height: 100%;
+     margin:0.5em 0.9em 0.9em 0;
+     padding: 0.8em 0.5em;
+     color: #fff;
+     background: transparent;
+     border: 1px solid #e4e4e4;
+     outline: none;
+     border-radius: 20px;
+     font-size: 16px;
+}
+option{
+     background-color: #999;
+
+}
+.appli-type{
+     width: 100%;
+     margin: 1.5em 0;
+}
+
+.appli-type p{
+     margin: 0.9em 0 0;
+}
+
+.type-appl{
+     width: 60%;
+     margin: 1em 0;
+}
+
+.bbs{
+     width: 80%;
+     margin-bottom: 0.5em;
+}
+
+.bbs h3{
+     margin-bottom: 0.5em;
+}
+
+.bbs select{
+     width: 100%;
+     height: 100%;
+     margin:0.5em 0.9em 0.9em 0;
+     padding: 0.8em 0.5em;
+     color: #fff;
+     background: transparent;
+     border: 1px solid #e4e4e4;
+     outline: none;
+     border-radius: 20px;
+     font-size: 16px;
+}
+
+.admitionfrom .btn{
+     width: 100%;
+     height: 2.8em;
+     margin: 2em 0;
+     border: none;
+     outline: none;
+     border-radius: 2em;
+     cursor: pointer;
+     font-size: 16px;
+     color: #333;
+     font-weight: 600;
+     transition: 1s ease-in-out;
+}
+.btn:hover{
+     background-color: rgb(188, 241, 222);
+}
